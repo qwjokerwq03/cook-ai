@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cai/cai.iml" filepath="$PROJECT_DIR$/cai/cai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cook/cook.iml" filepath="$PROJECT_DIR$/cook/cook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cook-ai.iml" filepath="$PROJECT_DIR$/.idea/cook-ai.iml" />
+    </modules>
+  </component>
+</project>
