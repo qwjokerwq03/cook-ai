@@ -20,14 +20,11 @@ import java.util.stream.Collectors;
 @Service
 public class RecipeService {
 
-    private final RecipeRepository recipeRepository;
-    private final UserRepository userRepository;
+    @Autowired
+    private RecipeRepository recipeRepository;
 
     @Autowired
-    public RecipeService(RecipeRepository recipeRepository, UserRepository userRepository) {
-        this.recipeRepository = recipeRepository;
-        this.userRepository = userRepository;
-    }
+    private UserRepository userRepository;
 
     public List<RecipeResponseDTO> getAllRecipes() {
         return recipeRepository.findAll().stream()

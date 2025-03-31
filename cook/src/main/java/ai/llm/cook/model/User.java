@@ -1,9 +1,9 @@
 package ai.llm.cook.model;
 
+import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Data;
 
-import javax.persistence.*;
 import java.util.List;
 
 @Entity
