@@ -1,7 +1,6 @@
 package ai.llm.cook.model;
 
 import jakarta.persistence.*;
-import lombok.Builder;
 import lombok.Data;
 
 import java.util.List;
@@ -9,7 +8,6 @@ import java.util.List;
 @Entity
 @Table(name = "users")
 @Data
-@Builder
 public class User {
 
     @Id
